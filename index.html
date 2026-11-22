@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#1c3d32" />
+    <meta
+      name="description"
+      content="The Eyam Pass, a draft mobile trail of three places in Eyam for the museum to check."
+    />
+    <title>The Eyam Pass</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="topbar">
+      <div class="shell">
+        <a class="brand" href="#/start">The Eyam Pass</a>
+        <p class="draft-strip">Draft. History and puzzle answers have not been checked by the museum.</p>
+        <p id="offline-status" class="offline-status" role="status">Preparing this page…</p>
+      </div>
+    </div>
+    <main id="main" class="shell" tabindex="-1">
+      <p>Loading the trail…</p>
+    </main>
+    <footer class="shell site-footer">
+      <p>
+        A personal, non-commercial prototype by Jon Rowland, made to show Eyam Museum. Not an
+        official museum publication.
+      </p>
+      <p>
+        <a href="#/sources">Sources and coordinates</a>
+        <span aria-hidden="true"> · </span>
+        <a href="#/codes">Can't walk the trail?</a>
+      </p>
+    </footer>
+    <div id="live" class="sr-only" aria-live="polite"></div>
+    <noscript>
+      <p class="shell noscript">
+        The Eyam Pass needs JavaScript, because the trail, the puzzles and the offline saving all
+        happen in this browser. Nothing is sent to a server. Enable JavaScript, then reload this
+        page.
+      </p>
+    </noscript>
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

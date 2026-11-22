@@ -1,0 +1,19 @@
+{
+  "name": "The Eyam Pass",
+  "short_name": "Eyam Pass",
+  "description": "A draft village trail for Eyam Museum. It works in the browser, with nothing to install.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#f4efe6",
+  "theme_color": "#1c3d32",
+  "lang": "en-GB",
+  "icons": [
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
